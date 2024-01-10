@@ -21,13 +21,13 @@
 
     @media screen and (max-width: 645px) {
       .material-symbols-outlined {
-      font-size: 38px;
-      font-variation-settings:
-        'FILL' 0,
-        'wght' 100,
-        'GRAD' 0,
-        'opsz' 24
-    }
+        font-size: 38px;
+        font-variation-settings:
+          'FILL' 0,
+          'wght' 100,
+          'GRAD' 0,
+          'opsz' 24
+      }
     }
   </style>
 </head>
@@ -38,11 +38,14 @@
     <nav class="navigation">
       <div><img src="resources/images/logo.svg" alt="logo not found" /></div>
       <div class="sel">
-        <select name="lang" class="btn" id="lang">
-          <option id="eng" value="english">English</option>
-          <option id="hin" value="hindi">हिन्दी</option>
-          option
-        </select>
+        <div class="lang-sel">
+          <img src="resources/images/lang.svg" alt="lang">
+          <select name="lang" class="btn" id="lang">
+            <option id="eng" value="english">English</option>
+            <option id="hin" value="hindi">हिन्दी</option>
+            option
+          </select>
+        </div>
         <button class="btn si">Sign In</button>
       </div>
     </nav>
@@ -255,11 +258,14 @@
         </ul>
       </div>
     </div>
-    <select name="lang" class="btn" id="lang">
-      <option id="eng" value="english">English</option>
-      <option id="hin" value="hindi">हिन्दी</option>
-      option
-    </select>
+    <div class="lang-sel">
+      <img src="resources/images/lang.svg" alt="lang">
+      <select name="lang" class="btn" id="lang">
+        <option id="eng" value="english">English</option>
+        <option id="hin" value="hindi">हिन्दी</option>
+        option
+      </select>
+    </div>
     <div class="brand">
       Netflix India
     </div>

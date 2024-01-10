@@ -66,15 +66,26 @@ body {
   content:url("resources/images/lang.svg")
 } */
 
+.lang-sel{
+  position: relative;
+}
+
+.lang-sel>img{
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  pointer-events: none;
+}
+
 #lang {
   width: 100px;
   outline: 1px solid rgba(255, 255, 255, 0.5);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  padding-left: 20px;
 }
 
-#eng,
-#hin {
+#eng, #hin {
   background-color: white;
   color: black;
 }
