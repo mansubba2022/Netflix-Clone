@@ -89,3 +89,4 @@ document.querySelector(".q6").addEventListener("click", () => {
 //         }
 //     });
 // });
+
