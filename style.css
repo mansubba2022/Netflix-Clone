@@ -528,7 +528,7 @@ li:nth-child(4n+0) {
   }
 
   .srch_btn {
-    width: max(60px, 14vw);
+    width: max(80px, 14vw);
     display: flex;
     justify-content: center;
     align-items: center;
